@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'
-import Table from 'react-bootstrap/Table';
-import Modal from 'react-bootstrap/Modal';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
+//import React, { useState, useEffect } from 'react';
+//import Button from 'react-bootstrap/Button';
+//import Card from 'react-bootstrap/Card'
+//import Table from 'react-bootstrap/Table';
+//import Modal from 'react-bootstrap/Modal';
+//import Row from 'react-bootstrap/Row';
+//import Col from 'react-bootstrap/Col';
+//import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 
-import CriarTarefa from './CriarTarefa';
-import EditarTarefa from './EditarTarefa';
+//import CriarTarefa from './CriarTarefa';
 
 //A função abaixo é usada para criar o array contendo os dados iniciais da listagem de tarefas.
 function createData(
@@ -34,7 +33,7 @@ const initialRows = [
 ];
 
 //Componente ListarTarefa
-const ListarTarefa = () => {
+/*const ListarTarefa = () => {
   const [open, setOpen] = useState(false);
   const [openEditar, setOpenEditar] = useState(false);
   const [tarefas, setTarefas] = useState([]);
@@ -161,4 +160,4 @@ const ListarTarefa = () => {
  );
 };
  
-export default ListarTarefa;
+export default ListarTarefa;*/
